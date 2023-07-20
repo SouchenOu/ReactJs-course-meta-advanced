@@ -83,6 +83,7 @@ ReactDOM.render(<div><Navbar/><MainContent/></div>, document.getElementById("nav
  */
 
 // Method1
+/**Regular DOM elements */
 const h1 = document.createElement("h1");
 h1.textContent = "Hello souchen lets learn react";
 h1.className = "header";
@@ -91,3 +92,26 @@ document.getElementById("root").append(h1);
 
 ReactDOM.render(<h1 className="header">Hello souchen let's learn ReactJs</h1>, document.getElementById("root"));
 
+/*****************Build a React info site JSX********************** */
+//JSX is sort of  a flavor of javascript that looks a lot like html
+
+ReactDOM.render(<h1 className="header">This is JSX</h1>, document.getElementById("root"));
+
+//****************Method 1
+ReactDOM.render(
+<div>
+    <h1 className="header">Salue soukaina</h1>
+    <p>This is your paragraph</p>
+</div>,
+ document.getElementById("Test1"));
+
+ // ********METHOD 2
+
+ let page = (
+    <div>
+        <h1 className="header">This is another example</h1>
+        <p>This is another paragraph</p>
+    </div>
+ )
+
+ ReactDOM.render(page, document.getElementById("Test1"));

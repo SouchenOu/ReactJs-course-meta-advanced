@@ -1,6 +1,26 @@
 # ReactJs-course-meta
+Course link-->
 
 https://www.youtube.com/watch?v=bMknfKXIFA8&t=1863s
+
+
+
+----------------------------------------------------
+
+What is DOM:
+-----------
+
+A web page is a document that can be either displayed in the browser window or as the HTML source. In both cases, it is the same document but the Document Object Model (DOM) representation allows it to be manipulated
+
+DOM represent the content of a XML or HTML document
+
+DOM allow us to read, access, update the contents of the document
+
+
+
+
+
+
 
 
 1: Introduction
