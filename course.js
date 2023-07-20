@@ -115,3 +115,30 @@ ReactDOM.render(
  )
 
  ReactDOM.render(page, document.getElementById("Test1"));
+
+ /******************Challege 3 */
+ /******
+  * Create a navbar in JSX
+  * --Use the semantic 'nav' element as the parent wrapper
+  * --Have an h1 element with the brand name of your "website"
+  * --Insert an unordered list for the other nav elements
+  *  -Inside the 'ul' , have three 'li' for "Pricing", "about" , and "Contact"
+  * -Dont worry about styling yet - it' ll just be plain-looking HTML for now
+  * 
+  * 
+  */
+
+
+ const navbar = (
+    <nav>
+        <h1>Souchen is Navbar</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+ )
+
+ ReactDOM.render(navbar, document.getElementById("Test1"));
+
