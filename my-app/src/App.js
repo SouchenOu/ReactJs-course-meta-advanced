@@ -16,6 +16,24 @@ import './App.css';
 
 // why we use ReactDOM.render instead of just using the DOM append method
 
+
+/****************Challenge 2 */
+/****
+ * Starting for scratch , build and render the HTML for our section project. check the google slide for what you are trying to build
+ * 
+ * we will adding styling to it later
+ * 
+ * 
+ * Hints:
+ * 
+ * The react logo is a file in the project tree, so you can access it by using 'src= ./react-logo.png' in your image element
+ * 
+ * You can also set the 'width' attribute of the image element just like in HTML.In the slide , I have it set to 40 px.
+ */
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -30,7 +48,9 @@ function App() {
              <li>It's a actively maintained by sli</li>
           </ul>
         </div>  
+        
     </div>
+
   );
 }
 
