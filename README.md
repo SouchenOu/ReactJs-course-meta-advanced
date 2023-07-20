@@ -17,6 +17,15 @@ DOM represent the content of a XML or HTML document
 DOM allow us to read, access, update the contents of the document
 
 
+What is JSX (Javascript syntax extension)/ js XML:
+--------------------------------------------
+
+--Is a way to structure component rendering using syntax familiar user in React
+
+--  JSX allows us to write HTML in React
+
+-- To use JSX we should apply --> (import React from 'react')
+
 
 
 
