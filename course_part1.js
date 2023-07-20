@@ -142,3 +142,4 @@ ReactDOM.render(
 
  ReactDOM.render(navbar, document.getElementById("Test1"));
 
+/**************Build a React info site | GoodBy, CDNs!***************** */
