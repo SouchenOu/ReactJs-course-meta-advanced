@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
- import App from './App';
- import Challenge2 from './challenge2';
- import Challenge3 from './challenge3'
+//  import App from './App';
+//  import Challenge2 from './challenge2';
+//  import Challenge3 from './challenge3'
+ import Challenge5 from './challenge5';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -59,9 +60,10 @@ root.render(Temporary());
 /********************************** */
 root.render(
   <React.StrictMode>
-    <Challenge3 />
+    <Challenge5 />
+    {/* <Challenge3 />
     <App />
-    <Challenge2 />
+    <Challenge2 /> */}
   </React.StrictMode>
 );
 

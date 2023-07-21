@@ -1,4 +1,4 @@
-import {img} from "./images/react-img.png"
+import {img} from "./images/react-logo.png"
 
 /*****************Build a React info site | parent/Child components*/
 

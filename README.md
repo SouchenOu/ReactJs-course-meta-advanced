@@ -27,6 +27,15 @@ What is JSX (Javascript syntax extension)/ js XML:
 -- To use JSX we should apply --> (import React from 'react')
 
 
+What is the fifference between export and import in ReactJs
+-----------------------------------------------------------
+
+
+Exporting makes the file contents eligible for importing.
+
+The basic idea behind imports and exports is to exchange contents between several JavaScript files.
+
+
 
 
 
