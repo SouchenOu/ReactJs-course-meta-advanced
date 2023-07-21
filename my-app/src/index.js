@@ -4,9 +4,12 @@ import './index.css';
 //  import App from './App';
 //  import Challenge2 from './challenge2';
 //  import Challenge3 from './challenge3'
- import Challenge5 from './challenge5';
+import Challenge6 from './challenge6';
+// import Challenge5 from './challenge5';
 
 import reportWebVitals from './reportWebVitals';
+
+
 
 
 //This is a variable
@@ -60,14 +63,17 @@ root.render(Temporary());
 /********************************** */
 root.render(
   <React.StrictMode>
-    <Challenge5 />
+    <Challenge6 />
+    {/* <Challenge5 /> */}
     {/* <Challenge3 />
     <App />
     <Challenge2 /> */}
   </React.StrictMode>
 );
 
+
+reportWebVitals();
 /************************ */
 
 
-reportWebVitals();
+
