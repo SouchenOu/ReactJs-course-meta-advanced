@@ -12,7 +12,7 @@ function Challenge2()
             <li>Has well over 100k stars on github</li>
             <li>Is maintained by Facebook</li>
           </ul>
-        </div>
+    </div>
 )
 }
 
