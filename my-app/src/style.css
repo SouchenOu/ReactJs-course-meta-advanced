@@ -1,3 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
 .Nav{
     display: flex;
+    align-items: center;
+    background-color: bisque;
+    height: 90px;
+    padding: 30px 25px;
+}
+nav > h3, nav > h4{
+    margin: 0;
+}
+nav > h3 {
+    margin-right : auto;
+    color: lightblue;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+nav > img{
+    margin-right: 7px;
 }
