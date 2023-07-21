@@ -33,7 +33,9 @@ What is JSX (Javascript syntax extension)/ js XML:
 
 
 1: Introduction
+
 2: What we’ll learn
+
 3: Fun facts about react link: https://www.figma.com/file/xA1rJVQOor...
 
 4: First react
@@ -42,25 +44,40 @@ https://reactjs.org/docs/cdn-links.html
 5: First React Practice 
 
 6: Local Setup (the quick way)
+
 7: Why React?
+
 8: JSX
+
 9: Goodbye, CDNs!
+
 10: Thought Experiment
+
 11: Project 1 Part 1 - MarkUp
+
 12: Pop Quiz!
+
 13: Components
+
 14: Setup a local React environment w/ Create React App
+
 15: Babel, Bundler, Build
+
 16: Create React app: https://create-react-app.dev/
+
 17: How to install Node.js
+
 18: Use nvm or nvm-windows
+
 19: How to install Node.js
+
 20: Styles and images with CRA
 
 https://create-react-app.dev/docs/add...
 https://create-react-app.dev/docs/usi...
 
 21: Quick Mental Outline of Project 
+
 22: Quick Figma Walkthrough
   
 
