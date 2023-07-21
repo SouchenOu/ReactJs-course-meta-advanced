@@ -60,8 +60,8 @@ root.render(Temporary());
 root.render(
   <React.StrictMode>
     <Challenge3 />
-    {/* <App />
-    <Challenge2 /> */}
+    <App />
+    <Challenge2 />
   </React.StrictMode>
 );
 
