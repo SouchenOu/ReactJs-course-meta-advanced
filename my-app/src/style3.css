@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+img{
+    max-width: 400px;
+    align-self: center;
+}
+
+
+.contacts{
+    background-color: aliceblue;
+    max-width: 300px;
+    max-height: 400px;
+    flex-direction: column;
+    align-self: center;
+    font-size: 12px;
+    padding: 40px 30px;
+    border-radius: 30px;
+    border-color: blue;
+    
+}
+.info--group{
+    display: flex;
+    font-size: 10px;
+   
+}
+.Phone-icon{
+    width: 10px;
+    height: 1cqmax;
+}
+.mail--icon{
+    display: flex;
+    font-size: 10px;
+}
+h3{
+    align-items: center;
+}
+
+.AllContact{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.firstImage{
+    width: 200px;
+    height: 100px;
+}
