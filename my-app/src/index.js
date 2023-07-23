@@ -4,7 +4,8 @@ import './index.css';
 //  import App from './App';
 //  import Challenge2 from './challenge2';
 //  import Challenge3 from './challenge3'
-import Challenge6 from './challenge6';
+//import Challenge6 from './challenge6';
+import Challenge7 from './challenge7';
 // import Challenge5 from './challenge5';
 
 import reportWebVitals from './reportWebVitals';
@@ -63,11 +64,13 @@ root.render(Temporary());
 /********************************** */
 root.render(
   <React.StrictMode>
-    <Challenge6 />
+    {/* <Challenge6 /> */}
     {/* <Challenge5 /> */}
     {/* <Challenge3 />
     <App />
     <Challenge2 /> */}
+    <Challenge7 />
+
   </React.StrictMode>
 );
 

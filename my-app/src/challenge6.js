@@ -1,5 +1,5 @@
 import img from "./images/react-logo.png"
-import './style.css';
+import './style1.css';
 /*******
  * 
  * 
