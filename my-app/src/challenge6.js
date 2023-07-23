@@ -45,11 +45,31 @@ function Navbar()
     )
 }
 
+function Main()
+{
+    return (
+        <div className="Main">
+            <h1>Fun facts about React</h1>
+            <ul className="mainFacts">
+                <li>Was first released in 2013</li>
+                <li>Was originally created by jordan walke</li>
+                <li>Has well over 100k</li>
+                <li>Is mantained by Facebook</li>
+                <li>Powers thousands of entreprise apps, including mobile apps</li>
+            </ul>
+        </div>
+    )
+}
+
 
 function Challenge6()
 {
     return (
-        <Navbar />
+        <div>
+            <Navbar />
+            <Main />
+        </div>
+        
     )
 }
 
