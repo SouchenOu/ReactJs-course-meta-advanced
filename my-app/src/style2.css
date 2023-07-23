@@ -17,3 +17,26 @@ body{
 .nav--logo{
     max-width: 40px;
 }
+
+section{
+    padding:20px;
+}
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Hero--photo{
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--header{
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
+}
