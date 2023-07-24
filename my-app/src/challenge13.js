@@ -14,7 +14,10 @@ import React from 'react'
  * Spoiler : the page wont update when new things get added to the array 
  */
 
-
+/********
+ * 
+ * Build a meme Generator | useState array destructuring
+ */
 
 function Challenge13()
 {
@@ -32,6 +35,12 @@ function Challenge13()
         setArray(prevState => [...prevState, newThingText])
         window.alert(array);
     }
+
+
+    /****************next Exercice */
+
+    
+
     return (
     <div className='Div'>
         <button onClick={AddItems} className='btn'>Add Item</button>
