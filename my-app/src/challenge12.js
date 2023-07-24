@@ -8,6 +8,10 @@
  */
 
 /*******Log something to the console when the mouse hovers over the image */
+
+/********Challenge***Get a random image from the memesData array when "the new meme image" to the console
+ * (dont worry about displaying the image yet*** */
+
 import './style4.css';
 import img from './images/mems.png';
 import img2 from './images/pic.jpeg';
