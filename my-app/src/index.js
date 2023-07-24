@@ -7,9 +7,10 @@ import './index.css';
 //import Challenge6 from './challenge6';
 // import Challenge7 from './challenge7';
 //import Challenge8 from './challenge8';
- import Challenge9 from './challenge9';
+//  import Challenge9 from './challenge9';
 // import Challenge5 from './challenge5';
-import Challenge11 from './challenge11';
+// import Challenge11 from './challenge11';
+import Challenge12 from './challenge12';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -74,8 +75,9 @@ root.render(
     <Challenge2 /> */}
     {/* <Challenge7 /> */}
     {/* <Challenge8 /> */}
-    <Challenge9 />
-    <Challenge11 />
+    {/* <Challenge9 />
+    <Challenge11 /> */}
+    <Challenge12 />
 
 
 

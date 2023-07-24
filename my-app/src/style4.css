@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Nav{
+    display: flex;
+    padding : 20px;
+    background-color: blueviolet;
+    max-height: 60px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text1{
+    margin-right: 200px;
+    color: wheat;
+   
+}
+.text2{
+    color: aliceblue;
+}
+.Div2{
+    padding: 36px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr ;
+    gap: 17px;
+}
+.btn{
+    grid-column: 1 / -1;
+    border-radius:  5px;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.Form-input {
+    border: 2px solid brown;
+}
