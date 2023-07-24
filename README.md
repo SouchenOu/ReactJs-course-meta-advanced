@@ -59,6 +59,11 @@ Why is using '.map()' better than just creating the components manually by typin
 It makes our code more "self-sustaining " not requiring additional changes whenever the data changes
 
 
+What is the difference between props and stat
+--------------------------------------------------------------------
+
+
+Any time you have changing values that should be saved/displayed, you will likely be using state
 
 
 

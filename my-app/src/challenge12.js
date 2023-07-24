@@ -37,7 +37,7 @@ function Challenge12()
                 }}> Get a new meme image </button>
             </div>
             <div>
-                <img src={img2} alt="" width="800px" height="900px" onMouseOver = {function(){
+                <img src={img2} alt="" width="400px" height="500px" onMouseOver = {function(){
                     window.alert("This is a mem image");
                 }}/>
             </div>
