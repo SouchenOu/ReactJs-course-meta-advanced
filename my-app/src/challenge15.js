@@ -10,11 +10,17 @@ function Challenge15(){
 
     // Challenge2
     /****set up state to track our count (initial value is 0) */
-    let [count, setCount] = React.useState("0");
+    let [count, setCount] = React.useState(0);
 
     function Add()
     {
         count++;
+        setCount(count);
+    }
+
+    function Soustraction()
+    {
+        count--;
         setCount(count);
     }
     return (
@@ -24,11 +30,11 @@ function Challenge15(){
                 <h1>{isImportant}</h1>
             </div>
             <div className="counter">
-                <button className="counter--minus">-</button>
+                <button onClick={Soustraction} className="counter--minus">-</button>
                 <div className="counter--count">
-                    <h1>0</h1>
+                    <h1>{count}</h1>
                 </div>
-                <button onClick="{Add}" className="counter--plus">+</button>
+                <button onClick={Add} className="counter--plus">+</button>
             </div>
         </div>
     )

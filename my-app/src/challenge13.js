@@ -1,6 +1,6 @@
 import './style5.css';
 import React from 'react'
-/******Challenge : Map over the thingsArray to generate a <p> element for each item and render them on the page below the button */
+/******Challenge1 : Map over the thingsArray to generate a <p> element for each item and render them on the page below the button */
 
 
 
@@ -19,6 +19,10 @@ import React from 'react'
  * Build a meme Generator | useState array destructuring
  */
 
+
+
+/******Challenge 2******** */
+/********Build a Meme Generator | Complex State Array ******/
 function Challenge13()
 {
 
@@ -37,14 +41,35 @@ function Challenge13()
     }
 
 
-    /****************next Exercice */
+    /**************** Next Exercice using state */
+
+    let  [thingArray, setThingsArray] = React.useState(["Thing1", "Thing2"]);
+
+const result2 = thingArray.map(function(elem){
+    return (<p>{elem}</p>)
+})
+
+    function AddItems2()
+    {
+        const newOne = `Thing${thingArray.length + 1}`;
+        // thingArray.push(newOne);
+        setThingsArray(prevState => [...prevState, newOne]);
+    }
 
     
 
     return (
     <div className='Div'>
-        <button onClick={AddItems} className='btn'>Add Item</button>
-        {result}
+        <div>
+            <button onClick={AddItems} className='btn'>Add Item</button>
+            {result}
+        </div>
+        <div>
+            <button onClick={AddItems2} className='btn'> Add item2</button>
+            {result2}
+        </div>
+        
+        
     </div>)
 }
 
