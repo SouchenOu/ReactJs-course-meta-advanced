@@ -57,14 +57,14 @@ console.log(upperCase);
 
 /***********Build an AirBnd Experiences clone | Mapping Componenets* */
 
-function Jock({setup, punchline, isPun, upvotes})
+function Jock(props)
 {
     return (
         <div>
-            {setup && <h3>Setup : {setup}</h3>}2
-            <p>{punchline}</p>
-            <p>{isPun}</p>
-            <p>{upvotes}</p>
+            {props.setup && <h3>Setup : {props.setup}</h3>}2
+            <p>{props.punchline}</p>
+            <p>{props.isPun}</p>
+            <p>{props.upvotes}</p>
             <hr />
         </div>
     )
@@ -94,7 +94,7 @@ function Challenge10()
         })
 
         return (
-            jocksElement
+            {jocksElement}
         )
        
     

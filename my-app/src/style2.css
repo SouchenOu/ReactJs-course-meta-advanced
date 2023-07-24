@@ -68,3 +68,7 @@ section{
 .AllCard{
     display: flex;
 }
+
+.OurResult{
+    display: flex;
+}
