@@ -14,12 +14,14 @@ function Challenge15(){
 
     function Add()
     {
+        // setCount(prevCount => prevCount + 1)
         count++;
         setCount(count);
     }
 
     function Soustraction()
     {
+        // setCount(prevCount => prevCount - 1);
         count--;
         setCount(count);
     }
