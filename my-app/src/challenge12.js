@@ -42,10 +42,9 @@ function Challenge12()
     {
         image = arrayImages[i];
         
-        // i++;
+        i++;
         setImages(image);
         
-        window.alert(image);
 
     }
 
