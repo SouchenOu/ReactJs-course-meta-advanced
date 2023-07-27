@@ -19,7 +19,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Challenge17 from './challenge17';
 // import Challenge18 from './challenge18';
-import Challenge19 from './challenge19';
+// import Challenge19 from './challenge19';
+import MethodMap from './MethodMap';
 
 
 
@@ -96,7 +97,8 @@ root.render(
       darkMode = {false} 
     /> */}
     {/* <Challenge18/> */}
-    <Challenge19 />
+    {/* <Challenge19 /> */}
+    <MethodMap />
 
 
 
