@@ -49,6 +49,21 @@ function Challenge18()
                 <input type="checkbox" id="isFriendly" checked={isFriendly} onClick={handelIsFriendly}/>
                 <label htmlFor="isfriendly">Are you friendly?</label>
             </div>
+            <fieldset>
+                <legend>Current employment status</legend>
+                <input type="radio" id="unemployed" name="employment"/>
+                <label  htmlFor="unemployed">unemployed</label>
+                <br />
+
+                <input type="radio" id="part-time" name="employment"/>
+                <label htmlFor="part-time">Part-time</label>
+                <br />
+
+                <input type="radio" id="full-time" name="employment"/>
+                <label htmlFor="full-time">Full-time</label>
+                <br />
+            </fieldset>
+
             
         </form>
     )
