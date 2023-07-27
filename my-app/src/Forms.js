@@ -26,17 +26,34 @@
  * s handled by the component’s state. It takes its current value through 
  * props and makes changes through callbacks like onClick,onChange, etc. A parent component manages its own state and passes the new values as props to the controlled component.
  */
-
+import {useState} from "react";
 
 function Forms()
 {
+
+    const [name, setName] = useState("");
+
+    // function handelFunction(event)
+    // {
+    //     setName(prevName => {
+            
+    //         return {
+    //             ...prevName, 
+    //             [event.target.name]: event.target.value 
+    //         }
+    //     })
+    // }
+    function handelSubmit()
+    {
+        window.alert("Form submitted...");
+    }
     return (
         <div>
-            <form>
+            <form onSubmit={handelSubmit}>
                 <fieldset>
                     <div className="fieldset">
                         <label>Name:</label>
-                        <input type="text" placeholder="Name" name="name"></input>
+                        <input type="text" placeholder="Name" name="name" value={name} onChange={(event) => setName(event.target.value)}/>
                     </div>
                     <button type="submit">Submit</button>
                 </fieldset>
