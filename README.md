@@ -20,6 +20,14 @@ https://www.youtube.com/watch?v=ipOYH_Wi9Xw
 
 ----------------------------------------------------
 
+
+What is React
+--------------
+
+
+
+ReactJS is an open-source JavaScript library used to create user interfaces in a declarative and efficient way. It is a component-based front-end library responsible only for the view layer of a Model View Controller(MVC) architecture. React is used to create modular user interfaces and promotes the development of reusable UI components that display dynamic data.
+
 What is DOM:
 -----------
 

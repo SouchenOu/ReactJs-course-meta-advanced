@@ -1,3 +1,4 @@
+
 const data = [
 
     {
@@ -24,19 +25,24 @@ const data = [
 
 const topDesserts = data.map(function(dessert){
     return  dessert.id === 1 ? dessert.title = "souchen" : dessert.title = "ouchen";
-    
-        // if(dessert.id ===1)
-        // {
-        //     dessert.title = "souchen";
-        // }
-    
-        
-    
+    // if(dessert.id ===1)
+    // {
+    //     dessert.title = "souchen";
+    // } 
 })
 
-export default function MethodMap()
+const listItems = data.map(function(elem){
+    const itemText = `${elem.title} - ${elem.price}`
+    return <li>{itemText}</li>
+ })
+
+export default function MapMethod()
 {
     console.log(topDesserts);
    
-    return <h1>Examine the console output</h1>
+    return (
+       <ul>
+            {listItems}
+       </ul>
+    )
 }

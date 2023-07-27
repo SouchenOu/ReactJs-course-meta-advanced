@@ -20,7 +20,9 @@ import reportWebVitals from './reportWebVitals';
 // import Challenge17 from './challenge17';
 // import Challenge18 from './challenge18';
 // import Challenge19 from './challenge19';
-import MethodMap from './MethodMap';
+// import MapMethod from './MapMethod';
+// import Keys from "./Keys"
+import Forms from "./Forms"
 
 
 
@@ -98,7 +100,8 @@ root.render(
     /> */}
     {/* <Challenge18/> */}
     {/* <Challenge19 /> */}
-    <MethodMap />
+    {/* <MapMethod /> */}
+    <Forms />
 
 
 
