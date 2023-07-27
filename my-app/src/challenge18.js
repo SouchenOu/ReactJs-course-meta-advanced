@@ -4,28 +4,43 @@
 /*******Build a Meme Generator Form input practice **********/
 
 import React from "react";
-
+import "./style6.css"
 
 function Challenge18()
 {
-    const [firstName, setFirstName] = React.useState("");
-    const [lastName, setLastName] = React.useState("");
+    // const [firstName, setFirstName] = React.useState("");
+    // const [lastName, setLastName] = React.useState("");
 
-    console.log(firstName);
-    console.log(lastName);
-    function handleChange1(event)
+    const [formData, setFormData] = React.useState({firstName: "", lastName: "", email: "" , comments: ""})
+
+    console.log(formData.firstName);
+    console.log(formData.lastName);
+    console.log(formData.email);
+    console.log(formData.comments);
+    // function handleChange1(event)
+    // {
+    //     //window.alert("Changed");
+    //     setFirstName(event.target.value);
+    // }
+    // function handleChange2(event)
+    // {
+    //     setLastName(event.target.value);
+    // }
+
+    function handleChange(event)
     {
-        //window.alert("Changed");
-        setFirstName(event.target.value);
-    }
-    function handleChange2(event)
-    {
-        setLastName(event.target.value);
+        setFormData(prevFormData => {
+            return {
+                ...prevFormData, 
+                [event.target.name]: event.target.value 
+            }
+        })
     }
     return (
         <form>
-            <input type="text" placeholder="First Name" onChange={handleChange1}></input>
-            <input type="text" placeholder="Last Name" onChange={handleChange2}></input>
+            <input type="text" placeholder="First Name" onChange={handleChange} value={formData.firstName}></input>
+            <input type="text" placeholder="Last Name" onChange={handleChange} value={formData.lastName}></input>
+            <textarea value={formData.comments} placeholder="comments" onChange={handleChange} name="comments"/>
 
         </form>
     )
