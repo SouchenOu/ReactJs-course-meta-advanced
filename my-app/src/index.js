@@ -23,7 +23,9 @@ import reportWebVitals from './reportWebVitals';
 // import MapMethod from './MapMethod';
 // import Keys from "./Keys"
 // import Forms from "./Forms"
-import ContextAPI from './ContextAPI'
+// import ContextAPI from './ContextAPI'
+// import Login from "./ContextApi/Login"
+import App from './ContextApi/App'
 
 
 
@@ -103,7 +105,9 @@ root.render(
     {/* <Challenge19 /> */}
     {/* <MapMethod /> */}
     {/* <Forms /> */}
-    <ContextAPI />
+    {/* <ContextAPI /> */}
+    {/* <Login /> */}
+    <App />
 
     
 
