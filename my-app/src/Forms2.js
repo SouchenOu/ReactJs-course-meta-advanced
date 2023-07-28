@@ -12,7 +12,7 @@
 import React from "react";
 import "./style6.css"
 
-function Challenge18()
+function Forms2()
 {
     // const [firstName, setFirstName] = React.useState("");
     // const [lastName, setLastName] = React.useState("");
@@ -95,4 +95,4 @@ function Challenge18()
 }
 
 
-export default Challenge18;
+export default Forms2;

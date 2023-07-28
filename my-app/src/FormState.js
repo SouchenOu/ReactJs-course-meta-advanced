@@ -12,7 +12,7 @@
 import React from "react";
 import "./style6.css"
 
-function Challenge19()
+function FormState()
 {
 
     const [formData, setFormData] = React.useState({
@@ -93,4 +93,4 @@ function Challenge19()
     )
 }
 
-export default Challenge19
+export default FormState
