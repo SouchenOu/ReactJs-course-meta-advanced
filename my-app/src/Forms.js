@@ -33,31 +33,33 @@ function Forms()
 
     const [name, setName] = useState("");
 
-    // function handelFunction(event)
-    // {
-    //     setName(prevName => {
-            
-    //         return {
-    //             ...prevName, 
-    //             [event.target.name]: event.target.value 
-    //         }
-    //     })
-    // }
-    function handelSubmit()
+
+    function handelSubmit(e)
     {
-        window.alert("Form submitted...");
+        // here no refresh happens and no server is hit with the request
+        e.preventDefault();
+        setName("");
+        window.alert(`Form submitted...${name}`);
     }
     return (
         <div>
             <form onSubmit={handelSubmit}>
                 <fieldset>
                     <div className="fieldset">
-                        <label>Name:</label>
-                        <input type="text" placeholder="Name" name="name" value={name} onChange={(event) => setName(event.target.value)}/>
+                        {/* we put in htmlFor the id (id = "name") so when we click label Name we focus for the input of the name */}
+                        {/* The Htmlfor attribute specifies which form element a label is bound to. */}
+                        <label htmlFor="name">Name:</label>
+                        {/* <input type="text" placeholder="Name" name="name" value={name} onChange={(event) => setName(event.target.value)}/> */}
+                        <input id="name" type="text" placeholder="Name" name="name" value={name} onChange={function (event) {
+                            return setName(event.target.value)
+                        } }/>
                     </div>
-                    <button type="submit">Submit</button>
+                     {/* (disabled={!name}-->)if we didnt write the name  in the input we cant click the button  */}
+                    <button disabled={!name} type="submit">Submit</button>
                 </fieldset>
             </form>
+                 
+        
         </div>
     )
 }

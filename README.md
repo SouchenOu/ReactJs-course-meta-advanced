@@ -28,6 +28,9 @@ What is React
 
 ReactJS is an open-source JavaScript library used to create user interfaces in a declarative and efficient way. It is a component-based front-end library responsible only for the view layer of a Model View Controller(MVC) architecture. React is used to create modular user interfaces and promotes the development of reusable UI components that display dynamic data.
 
+
+React makes it painless to create interactive User interface by using his components.
+
 What is DOM:
 -----------
 
@@ -86,6 +89,12 @@ What is the difference between props and stat
 
 Any time you have changing values that should be saved/displayed, you will likely be using state
 
+
+
+What is preventDefault():
+-------------------------
+
+The preventDefault() method of the Event interface tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be.
 
 
 
