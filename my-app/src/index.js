@@ -27,7 +27,7 @@ import reportWebVitals from './reportWebVitals';
 // import Login from "./ContextApi/Login"
 // import App from './ContextApi/App'
 // import Test from './Hooks/useCallback2/index'
-import App from './Hooks/useRef/app'
+import App from './Hooks/useMemo/app'
 
 
 
@@ -110,6 +110,7 @@ root.render(
     {/* <ContextAPI /> */}
     {/* <Login /> */}
     <App />
+    {/* <Test /> */}
 
     
 
