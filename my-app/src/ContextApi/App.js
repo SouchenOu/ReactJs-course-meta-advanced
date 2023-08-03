@@ -3,6 +3,9 @@
  * tree without having to pass props manually at every level. 
  * This makes it easier to share data between components. */
 
+
+
+//context allows us to share application state between all of our different components
 import Login from "./Login"
 import Profile from "./Profile"
 import {useState} from "react"
